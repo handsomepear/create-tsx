@@ -1,0 +1,18 @@
+{
+  "name": "create-tsx",
+  "version": "0.0.1",
+  "description": "create .tsx with default code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ctsx": "./index.js"
+  },
+  "keywords": [
+    "create",
+    "tsx"
+  ],
+  "author": "zhaipeishen",
+  "license": "ISC"
+}

@@ -1,13 +1,13 @@
-import { FC, useState } from 'react';
+import { FC, useState } from 'react'
 
-type $$FileProps = {
-  prop: string;
-};
+type PythonProps = {
+  prop: string
+}
 
-const $$File: FC<$$FileProps> = () => {
-  const [state, setState] = useState('');
+const Python: FC<PythonProps> = () => {
+  const [state, setState] = useState('')
 
-  return <div>{state}</div>;
-};
+  return <div>{state}</div>
+}
 
-export default $$File;
+export default Python

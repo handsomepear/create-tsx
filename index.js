@@ -24,6 +24,10 @@ const write = () => {
       createFolder(path.join(process.cwd(), willWritePath));
     }
 
+    if (fs.existsSync(filePath)) {
+      return console.log(`❌ ${filePath} already exists！`);
+    }
+
     fs.writeFile(filePath, fileContet, (err) => {
       if (err) throw err;
       console.log(`✅ ${filePath} created successfully！`);
